@@ -4,4 +4,5 @@ git clean -f: forza a eliminar el archivo no trackeado
 git clean -n: Muestra todo lo que se va a borrar
 git restore <archivo>: Este comando permita reestablecer un cambio hecho en el codigo
 
-git reset: sirve para bajaro "algo" de el staging (etapa 2) al working directory (etapa 1)
+git restore --staged <file>: sirve para bajaro "algo" de el staging (etapa 2) al working directory (etapa 1)
+
