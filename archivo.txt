@@ -1,4 +1,7 @@
 Hola como estas, me gustabas antes
 Esta es otra línea, esta es otra prueba
 
-Hola JSON
+COMANDOS:
+git clean: elimina los archivos no trackeados del working directory
+
+
