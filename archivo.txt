@@ -1,4 +1,5 @@
 COMANDOS:
 git clean: elimina solo los archivos no trackeados del working directory
 git clean -f: forza a eliminar el archivo no trackeado
-
+git clean -n: Muestra todo lo que se va a borrar
+git restore <archivo>: Este comando permita reestablecer un cambio hecho en el codigo
