@@ -1,7 +1,4 @@
-Hola como estas, me gustabas antes
-Esta es otra línea, esta es otra prueba
-
 COMANDOS:
-git clean: elimina los archivos no trackeados del working directory
+git clean: elimina solo los archivos no trackeados del working directory
 git clean -f: forza a eliminar el archivo no trackeado
 
