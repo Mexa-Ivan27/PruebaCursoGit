@@ -6,3 +6,7 @@ git restore <archivo>: Este comando permita reestablecer un cambio hecho en el c
 
 git restore --staged <file>: sirve para bajaro "algo" de el staging (etapa 2) al working directory (etapa 1)
 
+
+
+CREANDO RAMAS
+git branch: Con este comando podemos ver cuantas ramas existen y en cuál estamos parados
