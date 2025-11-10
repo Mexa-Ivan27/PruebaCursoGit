@@ -15,4 +15,9 @@ git branch -d <name>: Eliminas una rama
 git branch -m <old_name> <new_name>: Cambias el nombre
 git checkout <commit_id>: Navegas al cambio que hiciste en ese commit
 git checkout <name_branch>: Te permite cambiar de una rama a otra 
+git checkout -b <banch_name>: Crea una rama y te cambia a esa rama 
+
+
+GIT MERGE
+Agregando prueba
 
