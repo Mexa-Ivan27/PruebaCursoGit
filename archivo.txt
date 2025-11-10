@@ -10,3 +10,9 @@ git restore --staged <file>: sirve para bajaro "algo" de el staging (etapa 2) al
 
 CREANDO RAMAS
 git branch: Con este comando podemos ver cuantas ramas existen y en cuál estamos parados
+git branch <name>: Con este comando creamos una rama
+git branch -d <name>: Eliminas una rama
+git branch -m <old_name> <new_name>: Cambias el nombre
+git checkout <commit_id>: Navegas al cambio que hiciste en ese commit
+git checkout <name_branch>: Te permite cambiar de una rama a otra 
+
