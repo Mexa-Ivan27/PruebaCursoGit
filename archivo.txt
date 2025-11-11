@@ -19,5 +19,10 @@ git checkout -b <banch_name>: Crea una rama y te cambia a esa rama
 
 
 GIT MERGE
-Agregando prueba
+git merge <branch_name>: Tienes que estar en la rama master / main para unir el código (Se une con todo y commits)
 
+
+CONFLICTOS
+Cuando 2 desarrolladores escriben en la misma rama
+1 se puede dar cuando inicias un proceso de merge
+y otro es durante el proceso de merge 
