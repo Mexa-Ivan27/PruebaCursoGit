@@ -2,9 +2,9 @@ COMANDOS:
 git clean: elimina solo los archivos no trackeados del working directory
 git clean -f: forza a eliminar el archivo no trackeado
 git clean -n: Muestra todo lo que se va a borrar
-git restore <archivo>: Este comando permita reestablecer un cambio hecho en el codigo
+git restore <archivo>: Este comando permite reestablecer un cambio hecho en el codigo
 
-git restore --staged <file>: sirve para bajaro "algo" de el staging (etapa 2) al working directory (etapa 1)
+git restore --staged <file>: sirve para bajar "algo" de el staging (etapa 2) al working directory (etapa 1)
 
 
 
@@ -26,3 +26,19 @@ CONFLICTOS
 Cuando 2 desarrolladores escriben en la misma rama
 1 se puede dar cuando inicias un proceso de merge
 y otro es durante el proceso de merge 
+
+
+STASH: sirve para guardar una porción de código (funciona como una pila en programación)
+git stash: guardas los últimos cambios
+git stach pop: traes los cambios guardados
+git stash list: Muestra todos los git stash guardados
+
+
+TAG: sirve para etiquetar un commit como importantes (Cuando creas un tag apunta a un solo commit)
+git tag <comentario>: tag ligero
+git tag -a v1.0: tag anotado
+git tag: enlista todos los tag
+git tag -a version0.0 -m <comentario> <hash>
+git checkout <tag_name>: viaja en el tiempo al checkout
+git show <tag_name>: Muestra quien lo hizo
+git tag -d <tag_name>: Elimina un tag
